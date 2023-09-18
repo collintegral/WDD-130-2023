@@ -13,7 +13,7 @@ Fonts are separated by a & */
   --accent2-color: #13262F;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
+  --heading-font: Cabin, "Cabin";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -22,7 +22,7 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #13262F; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #583E23  ;
-  --nav-link-color: #92DCE5;
+  --nav-link-color: white;
   --nav-background-color: #583E23;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
