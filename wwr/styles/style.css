@@ -80,12 +80,18 @@ h4 {
     width: 100%;
 }
 
+#hero-msg {
+    background-color: #583E23;
+}
+
 #hero-msg h1 {
     text-align: center;
+    color: black;
 }
 
 #hero-msg h4 {
     text-align: center;
+    color: black;
 }
 
 .button-box {
