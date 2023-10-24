@@ -1,0 +1,26 @@
+I propose creation of a site that will serve as a landing page/information hub for Pathfinder and D&D TTRPG games that I run. It fulfils the requirements as follows:
+
+1. The personal site will consist of a home page, containing links to and a brief summary of any campaigns I am running, as well as a page describing myself as game leader.
+For purposes of the assignment, it will include a sample campaign that would serve as a template for all future entries.
+
+2. The site will be hosted on the web.
+
+3.1. The home page will describe the purpose of the page and list its children; the campaign template will include sample sections to describe the following:
+ - Campaign setting
+ - Campaign schedule
+ - Current players
+ - A brief summary of events to date
+Meanwhile, the About Me page will include the following:
+ - My experience and history
+ - Games I run or would consider running
+ - My location and software I use to run games
+ 
+3.2. The home page will contain general imagery for those familiar with tabletop games: dice, pencils, grid paper, and so on.
+The sample campaign page will include a map of the setting, and images of characters as they are provided by the players.
+The About Me page will include a picture of myself, and possibly supplemental imagery depending on the final contents.
+
+3.3. The home page will include multiple links to the children.
+
+3.4. The site will be laid out according to the wireframe.
+
+3.5. The site will be relatively visually appealing (hopefully), and easily readable.
