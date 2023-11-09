@@ -67,6 +67,7 @@ footer .social img {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
+
     box-shadow: 5px 5px 10px #6f7364;
 }
 
@@ -106,7 +107,7 @@ footer .social img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-#content {
+.content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -144,7 +145,7 @@ h4 {
     z-index: -1;
 }
 
-#hero-img {
+.hero-img {
     width: 100%;
 }
 
@@ -223,6 +224,48 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
+
+/*faq page css*/
+
+.faq {
+    margin-top: -40px;
+    margin-bottom: 100px;
+    background-color: #583E23;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.arrow {
+    display:inline;
+}
+.down {
+    display:none;
+}
+
+.q {
+    color: whitesmoke;
+}
+
+.a {
+    display: none;
+    padding-left: 3%;
+    text-align: justify;
+}
+
+.faqswitch{
+    display: none;
+}
+
+.faqswitch:checked+label + .a {
+    display:block;
+}
+
+.footer-faq {
+    margin-top: 0;
+}
+
+/*media*/
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
