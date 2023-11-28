@@ -42,6 +42,14 @@ footer {
     text-align: center;
 }
 
+footer .siteplan {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: .05em 0 0 #000, 0 .05em 0 #000, -.05em 0 0 #000, 0 -.05em 0 #000;
+    text-decoration: none;
+    font-size: 60%;
+}
+
 .to-top {
     border: #000F08;
     border-radius: 5px;
