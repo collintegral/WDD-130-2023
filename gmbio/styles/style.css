@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 body {
-    max-width: 95%;
+    width: 95vw;
     margin: 12vh auto auto auto;
     color: whitesmoke;
     background-color: #C7AA74;
     font-family: "Libre Baskerville", serif;
-    font-size: 22px;
+    font-size: 2vh;
     position: relative;
-    min-height: 100vh;
 }
 
 body::after {
@@ -20,15 +19,15 @@ body::after {
 
 header {
     top: 0;
-    background-image: url("../images/d20\ Splash.png");
+    background-image: url("../images/d20_Splash.png");
     background-color: #561D25;
     background-size: cover;
     display: grid;
-    grid-template-columns: 25% auto;
+    grid-template-columns: 20vw auto;
     align-content: center;
     height: 12vh;
     position: fixed;
-    width: 95%;
+    width: 95vw;
 }
 
 footer {
@@ -36,11 +35,12 @@ footer {
     align-items: center;
     background-color: #561D25;
     background-size: cover;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 95vw;
     height: 5vh;
-    border-radius: 5px 5px 0 0;
+    border-radius: .5vh .5vh 0 0;
+    justify-content: center;
     text-align: center;
 }
 
@@ -49,14 +49,22 @@ footer .siteplan {
     color: whitesmoke;
     text-shadow: .05em 0 0 #000, 0 .05em 0 #000, -.05em 0 0 #000, 0 -.05em 0 #000;
     text-decoration: none;
-    font-size: 60%;
+    font-size: 1.5vh;
 }
 
 .to-top {
     border: #000F08;
-    border-radius: 5px;
-    color: whitesmoke;
+    border-radius: .5vh;
     background-color: #416788;
+    font-size: 1.7vh;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.to-top:hover {
+    background-color: #81A7C8;
+    color: black;
+    font-weight: bold;
 }
 
 .logo {
@@ -82,10 +90,8 @@ nav a {
 
 main {
     background-color: #416788;
-    margin-top: .6%;
-    margin-bottom: .6%;
     padding: 2%;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 .5vh .5vh;
 }
 
 .center-grid {
@@ -107,7 +113,7 @@ main {
 }
 
 .campaign-sidenav {
-    grid-column: 0/1;
+    grid-column: 1/2;
     height: 100%;
     width: 15%; /* Set the width of the sidebar */
     background-color: #111; /* Black */
@@ -116,26 +122,26 @@ main {
 }
 
 .campaign-sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: .6vh .8vh .6vh .16vh;
     text-decoration: none;
     color: #818181;
     display: block;
 }
 
 .campaign-sidenav a:hover {
-color: #f1f1f1;
+    color: #f1f1f1;
 }
 
 #home-grid a {
     width: 100%;
-    height: 32.5vh;
+    height: 37.8vh;
     text-align: center;
-    border-radius: 5px;
+    border-radius: .5vh;
     text-decoration: none;
     color: whitesmoke;
     text-shadow: .05em 0 0 #000, 0 .05em 0 #000, -.05em 0 0 #000, 0 -.05em 0 #000;
     text-decoration: none;
-    font-size: 200%;
+    font-size: 4.5vh;
     display: grid;
     align-items: center;
 }
@@ -155,7 +161,7 @@ color: #f1f1f1;
 }
 
 .about-art {
-    width: 40%;
+    width: 40vw;
     float: left;
 }
 
@@ -163,14 +169,5 @@ color: #f1f1f1;
     grid-row: 1/3;
     grid-column: 1/3;
     text-align: justify;
-}
-
-@media screen and (max-width: 900px) {
-    nav a {
-        font-size: 100%;
-    }
-
-    main a {
-        font-size: 100%;
-    }
+    min-height: 60vh;
 }
