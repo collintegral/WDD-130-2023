@@ -94,6 +94,12 @@ main {
     border-radius: 0 0 .5vh .5vh;
 }
 
+.welcome {
+    text-align: center;
+    font-size: larger;
+    grid-column: 1/3;
+}
+
 .center-grid {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
